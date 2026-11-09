@@ -1,0 +1,983 @@
+<roblox version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="Workspace" referent="RBX00000000000000000000000000000001">
+    <Properties>
+      <string name="Name">Workspace</string>
+    </Properties>
+    <Item class="Model" referent="RBX00000000000000000000000000000002">
+      <Properties>
+        <string name="Name">Course</string>
+      </Properties>
+      <Item class="Part" referent="RBX00000000000000000000000000000003">
+        <Properties>
+          <string name="Name">StartIsland</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.14901960784313725</R>
+            <G>0.21568627450980393</G>
+            <B>0.29411764705882354</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>14</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>24</X>
+            <Y>2</Y>
+            <Z>24</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000004">
+        <Properties>
+          <string name="Name">Jump01</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.33725490196078434</R>
+            <G>0.7137254901960784</G>
+            <B>0.9333333333333333</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>1</Y>
+            <Z>-9</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>14</X>
+            <Y>2</Y>
+            <Z>14</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000005">
+        <Properties>
+          <string name="Name">Jump02</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9607843137254902</R>
+            <G>0.611764705882353</G>
+            <B>0.27058823529411763</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>2</Y>
+            <Z>-23</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>12</X>
+            <Y>2</Y>
+            <Z>12</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000006">
+        <Properties>
+          <string name="Name">CheckpointIsland1</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.29411764705882354</G>
+            <B>0.3843137254901961</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>3</Y>
+            <Z>-38</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>14</X>
+            <Y>2</Y>
+            <Z>14</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000007">
+        <Properties>
+          <string name="Name">Jump04</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.34509803921568627</R>
+            <G>0.7254901960784313</G>
+            <B>0.9450980392156862</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>4</Y>
+            <Z>-53</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>12</X>
+            <Y>2</Y>
+            <Z>12</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000008">
+        <Properties>
+          <string name="Name">CheckpointIsland2</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.18823529411764706</R>
+            <G>0.29411764705882354</G>
+            <B>0.3843137254901961</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>5</Y>
+            <Z>-69</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>14</X>
+            <Y>2</Y>
+            <Z>14</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000009">
+        <Properties>
+          <string name="Name">Jump06</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9607843137254902</R>
+            <G>0.611764705882353</G>
+            <B>0.27058823529411763</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>5</Y>
+            <Z>-85</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>12</X>
+            <Y>2</Y>
+            <Z>12</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX0000000000000000000000000000000A">
+        <Properties>
+          <string name="Name">FinishIsland</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.1607843137254902</R>
+            <G>0.24705882352941178</G>
+            <B>0.37254901960784315</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>5</Y>
+            <Z>-101</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>24</X>
+            <Y>2</Y>
+            <Z>20</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000011">
+        <Properties>
+          <string name="Name">Marker_1</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.1568627450980392</R>
+            <G>0.7254901960784313</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-9</X>
+            <Y>6</Y>
+            <Z>14</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>1</X>
+            <Y>11</Y>
+            <Z>1</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000012">
+        <Properties>
+          <string name="Name">MarkerCap_1</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9176470588235294</R>
+            <G>0.9568627450980393</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-9</X>
+            <Y>11.8</Y>
+            <Z>14</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>3</X>
+            <Y>1.4</Y>
+            <Z>3</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000013">
+        <Properties>
+          <string name="Name">Marker_2</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.1568627450980392</R>
+            <G>0.7254901960784313</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>9</Y>
+            <Z>-38</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>1</X>
+            <Y>11</Y>
+            <Z>1</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000014">
+        <Properties>
+          <string name="Name">MarkerCap_2</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9176470588235294</R>
+            <G>0.9568627450980393</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>14.8</Y>
+            <Z>-38</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>3</X>
+            <Y>1.4</Y>
+            <Z>3</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000015">
+        <Properties>
+          <string name="Name">Marker_3</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.1568627450980392</R>
+            <G>0.7254901960784313</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-12</X>
+            <Y>11</Y>
+            <Z>-69</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>1</X>
+            <Y>11</Y>
+            <Z>1</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000016">
+        <Properties>
+          <string name="Name">MarkerCap_3</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9176470588235294</R>
+            <G>0.9568627450980393</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-12</X>
+            <Y>16.8</Y>
+            <Z>-69</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>3</X>
+            <Y>1.4</Y>
+            <Z>3</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000017">
+        <Properties>
+          <string name="Name">Marker_4</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.1568627450980392</R>
+            <G>0.7254901960784313</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>11</Y>
+            <Z>-101</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>1</X>
+            <Y>11</Y>
+            <Z>1</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000018">
+        <Properties>
+          <string name="Name">MarkerCap_4</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.9176470588235294</R>
+            <G>0.9568627450980393</G>
+            <B>1.0</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>16.8</Y>
+            <Z>-101</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>3</X>
+            <Y>1.4</Y>
+            <Z>3</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX00000000000000000000000000000019">
+        <Properties>
+          <string name="Name">Accent_1</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>1.0</R>
+            <G>0.9647058823529412</G>
+            <B>0.7803921568627451</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>2.15</Y>
+            <Z>-9</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>4</X>
+            <Y>0.3</Y>
+            <Z>4</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX0000000000000000000000000000001A">
+        <Properties>
+          <string name="Name">Accent_2</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>1.0</R>
+            <G>0.9647058823529412</G>
+            <B>0.7803921568627451</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>3.15</Y>
+            <Z>-23</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>4</X>
+            <Y>0.3</Y>
+            <Z>4</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX0000000000000000000000000000001B">
+        <Properties>
+          <string name="Name">Accent_3</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>1.0</R>
+            <G>0.9647058823529412</G>
+            <B>0.7803921568627451</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>5.15</Y>
+            <Z>-53</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>4</X>
+            <Y>0.3</Y>
+            <Z>4</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX0000000000000000000000000000001C">
+        <Properties>
+          <string name="Name">Accent_4</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>1.0</R>
+            <G>0.9647058823529412</G>
+            <B>0.7803921568627451</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>6.15</Y>
+            <Z>-85</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>4</X>
+            <Y>0.3</Y>
+            <Z>4</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX0000000000000000000000000000000B">
+      <Properties>
+        <string name="Name">StartSpawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <Color3 name="Color">
+          <R>0.23137254901960785</R>
+          <G>0.8313725490196079</G>
+          <B>0.6078431372549019</B>
+        </Color3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>1.6</Y>
+          <Z>19</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="Size">
+          <X>10</X>
+          <Y>1</Y>
+          <Z>10</Z>
+        </Vector3>
+        <bool name="Neutral">true</bool>
+        <int name="Duration">0</int>
+      </Properties>
+    </Item>
+    <Item class="Folder" referent="RBX0000000000000000000000000000000C">
+      <Properties>
+        <string name="Name">Checkpoints</string>
+      </Properties>
+      <Item class="Part" referent="RBX0000000000000000000000000000000D">
+        <Properties>
+          <string name="Name">Checkpoint1</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.28627450980392155</R>
+            <G>0.8862745098039215</G>
+            <B>0.6235294117647059</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>6</X>
+            <Y>4.23</Y>
+            <Z>-38</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>7</X>
+            <Y>0.46</Y>
+            <Z>7</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Part" referent="RBX0000000000000000000000000000000E">
+        <Properties>
+          <string name="Name">Checkpoint2</string>
+          <bool name="Anchored">true</bool>
+          <bool name="CanCollide">true</bool>
+          <Color3 name="Color">
+            <R>0.28627450980392155</R>
+            <G>0.8862745098039215</G>
+            <B>0.6235294117647059</B>
+          </Color3>
+          <CoordinateFrame name="CFrame">
+            <X>-3</X>
+            <Y>6.23</Y>
+            <Z>-69</Z>
+            <R00>1</R00>
+            <R01>0</R01>
+            <R02>0</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>0</R20>
+            <R21>0</R21>
+            <R22>1</R22>
+          </CoordinateFrame>
+          <Vector3 name="Size">
+            <X>7</X>
+            <Y>0.46</Y>
+            <Z>7</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX0000000000000000000000000000000F">
+      <Properties>
+        <string name="Name">FinishPad</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <Color3 name="Color">
+          <R>0.8274509803921568</R>
+          <G>0.9568627450980393</G>
+          <B>0.3568627450980392</B>
+        </Color3>
+        <CoordinateFrame name="CFrame">
+          <X>6</X>
+          <Y>6.24</Y>
+          <Z>-103</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="Size">
+          <X>13</X>
+          <Y>0.48</Y>
+          <Z>8</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX00000000000000000000000000000010">
+      <Properties>
+        <string name="Name">Lava</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CanCollide">true</bool>
+        <Color3 name="Color">
+          <R>0.8901960784313725</R>
+          <G>0.2901960784313726</G>
+          <B>0.2901960784313726</B>
+        </Color3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>-12</Y>
+          <Z>-44</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="Size">
+          <X>170</X>
+          <Y>3</Y>
+          <Z>215</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="ServerScriptService" referent="RBX0000000000000000000000000000001D">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="Script" referent="RBX0000000000000000000000000000001E">
+      <Properties>
+        <string name="Name">Game</string>
+        <ProtectedString name="Source">-- Checkpoint Rush - basic game logic
+-- Runs on the server so checkpoints and finish times cannot be changed by the player.
+
+local Players = game:GetService("Players")
+local checkpoints = workspace:WaitForChild("Checkpoints")
+local finishPad = workspace:WaitForChild("FinishPad")
+local lava = workspace:WaitForChild("Lava")
+
+local positions = {
+    [0] = CFrame.new(0, 7, 14),
+    [1] = CFrame.new(6, 9, -38),
+    [2] = CFrame.new(-3, 10, -69),
+}
+
+local function getPlayerFromTouch(hit)
+    local character = hit:FindFirstAncestorOfClass("Model")
+    if not character then return nil end
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if not humanoid or humanoid.Health &lt;= 0 then return nil end
+    return Players:GetPlayerFromCharacter(character), humanoid
+end
+
+Players.PlayerAdded:Connect(function(player)
+    player:SetAttribute("Checkpoint", 0)
+    player:SetAttribute("Finished", false)
+    player:SetAttribute("StartTime", workspace:GetServerTimeNow())
+
+    local leaderstats = Instance.new("Folder")
+    leaderstats.Name = "leaderstats"
+    leaderstats.Parent = player
+
+    local wins = Instance.new("IntValue")
+    wins.Name = "Wins"
+    wins.Value = 0
+    wins.Parent = leaderstats
+
+    player.CharacterAdded:Connect(function(character)
+        local root = character:WaitForChild("HumanoidRootPart", 10)
+        if root then
+            local index = player:GetAttribute("Checkpoint") or 0
+            root.CFrame = positions[index] or positions[0]
+        end
+    end)
+end)
+
+for _, part in ipairs(checkpoints:GetChildren()) do
+    local number = tonumber(part.Name:match("%d+"))
+    if number then
+        part.Touched:Connect(function(hit)
+            local player = getPlayerFromTouch(hit)
+            if not player or player:GetAttribute("Finished") then return end
+            local current = player:GetAttribute("Checkpoint") or 0
+            if number &gt; current then
+                player:SetAttribute("Checkpoint", number)
+                print(player.Name .. " reached checkpoint " .. number)
+            end
+        end)
+    end
+end
+
+local finishDebounce = {}
+finishPad.Touched:Connect(function(hit)
+    local player = getPlayerFromTouch(hit)
+    if not player or finishDebounce[player] or player:GetAttribute("Finished") then return end
+    finishDebounce[player] = true
+    local elapsed = math.max(0, workspace:GetServerTimeNow() - (player:GetAttribute("StartTime") or workspace:GetServerTimeNow()))
+    player:SetAttribute("Finished", true)
+    player:SetAttribute("FinishTime", math.floor(elapsed * 10 + 0.5) / 10)
+    local wins = player:FindFirstChild("leaderstats") and player.leaderstats:FindFirstChild("Wins")
+    if wins then wins.Value += 1 end
+    print(player.Name .. " finished in " .. string.format("%.1f", elapsed) .. " seconds!")
+end)
+
+lava.Touched:Connect(function(hit)
+    local _, humanoid = getPlayerFromTouch(hit)
+    if humanoid then humanoid.Health = 0 end
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    finishDebounce[player] = nil
+end)
+
+print("Checkpoint Rush loaded - press Play to test the obstacle course")
+</ProtectedString>
+        <bool name="Disabled">false</bool>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="StarterPlayer" referent="RBX0000000000000000000000000000001F">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="RBX00000000000000000000000000000020">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+      </Properties>
+      <Item class="LocalScript" referent="RBX00000000000000000000000000000021">
+        <Properties>
+          <string name="Name">HUD</string>
+          <ProtectedString name="Source">-- Checkpoint Rush - simple on-screen timer and instructions
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local screen = Instance.new("ScreenGui")
+screen.Name = "CheckpointRushHUD"
+screen.ResetOnSpawn = false
+screen.IgnoreGuiInset = true
+screen.Parent = player:WaitForChild("PlayerGui")
+
+local title = Instance.new("TextLabel")
+title.Name = "GameTitle"
+title.AnchorPoint = Vector2.new(0.5, 0)
+title.Position = UDim2.new(0.5, 0, 0, 14)
+title.Size = UDim2.new(0.9, 0, 0, 48)
+title.BackgroundColor3 = Color3.fromRGB(22, 29, 54)
+title.BackgroundTransparency = 0.1
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.Font = Enum.Font.GothamBold
+title.TextScaled = true
+title.Text = "CHECKPOINT RUSH"
+title.Parent = screen
+
+local info = Instance.new("TextLabel")
+info.Name = "GameInfo"
+info.AnchorPoint = Vector2.new(0.5, 0)
+info.Position = UDim2.new(0.5, 0, 0, 65)
+info.Size = UDim2.new(0.9, 0, 0, 35)
+info.BackgroundColor3 = Color3.fromRGB(34, 47, 83)
+info.BackgroundTransparency = 0.15
+info.TextColor3 = Color3.fromRGB(230, 246, 255)
+info.Font = Enum.Font.Gotham
+info.TextScaled = true
+info.Text = "Reach the green finish!"
+info.Parent = screen
+
+local hint = Instance.new("TextLabel")
+hint.AnchorPoint = Vector2.new(0.5, 1)
+hint.Position = UDim2.new(0.5, 0, 1, -15)
+hint.Size = UDim2.new(0.9, 0, 0, 28)
+hint.BackgroundTransparency = 1
+hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+hint.TextStrokeTransparency = 0.25
+hint.Font = Enum.Font.GothamMedium
+hint.TextScaled = true
+hint.Text = "Jump across the platforms. Green pads save your checkpoint."
+hint.Parent = screen
+
+while screen.Parent do
+    local cp = player:GetAttribute("Checkpoint") or 0
+    if player:GetAttribute("Finished") then
+        info.Text = "FINISHED! Time: " .. tostring(player:GetAttribute("FinishTime") or 0) .. "s | Checkpoints: " .. cp .. "/2"
+    else
+        local start = player:GetAttribute("StartTime") or workspace:GetServerTimeNow()
+        local seconds = math.max(0, workspace:GetServerTimeNow() - start)
+        info.Text = string.format("Time: %.1fs  |  Checkpoint: %d/2", seconds, cp)
+    end
+    task.wait(0.1)
+end
+</ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="Lighting" referent="RBX00000000000000000000000000000022">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <Color3 name="Ambient">
+        <R>0.6196078431372549</R>
+        <G>0.7372549019607844</G>
+        <B>0.8156862745098039</B>
+      </Color3>
+      <Color3 name="OutdoorAmbient">
+        <R>0.7019607843137254</R>
+        <G>0.8313725490196079</G>
+        <B>0.9176470588235294</B>
+      </Color3>
+      <float name="Brightness">2</float>
+    </Properties>
+  </Item>
+</roblox>
