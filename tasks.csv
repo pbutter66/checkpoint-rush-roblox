@@ -1,0 +1,21 @@
+ID,Status,Task,Acceptance criteria,Priority,Label
+B01,Backlog,Optional: add a second level,Extra levels come after the first one is stable,Low,Future
+B02,Backlog,Optional: add a simple shop,Players can spend coins on cosmetic items,Low,Future
+B03,Backlog,Optional: save best times,Best time remains after a player rejoins,Low,Future
+B04,Backlog,Optional: add sound effects,Sounds play when jumping and finishing,Low,Future
+T01,To Do,Open starter project in Roblox Studio,The starter scripts are pasted into the right places,High,Setup
+T02,To Do,Run and screenshot prototype,A genuine Studio Play screenshot is saved,High,Test
+T03,To Do,Create GitHub repository,Code and README are uploaded with a working link,High,Setup
+T04,To Do,Create hosted Kanban board,Five columns and tasks are visible online,High,Planning
+T05,To Do,Build first checkpoint,Touching checkpoint changes respawn location,High,Code
+T06,In Progress,Check the starter course layout,"Course has a start, two jumps, and a finish pad",High,Code
+T07,In Progress,Prepare Phase 1 setup notes,README explains how to load the scripts,High,Docs
+R01,Review/Testing,Playtest spawn and basic jumps,Player spawns on the first platform and can jump,High,Test
+R02,Review/Testing,Check Output for script errors,No errors during one full run in Roblox Studio,High,Test
+R03,Review/Testing,Check HUD on phone layout,Text stays readable on a small display,Medium,UI
+D01,Done,Choose a realistic game idea,Basic solo Roblox obby is selected,High,Planning
+D02,Done,Write MVP and core features,Requirements list is included in the document,High,Planning
+D03,Done,Make gameplay wireframe,"Mockup shows gameplay, HUD, and controls",High,Design
+D04,Done,Create local Git repository,Local repo has an initial commit,High,Setup
+D05,Done,Write initial Luau scripts,Course and HUD starter scripts are saved,High,Code
+D06,Done,Draft the testing plan,At least eight tests with expected results are listed,Medium,Test

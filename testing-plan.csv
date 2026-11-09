@@ -1,0 +1,12 @@
+ID,Feature,Preconditions or input,Steps,Expected result,Method
+TC-01,Spawn,Start the game with one player.,Click Play in Studio.,Player appears on the blue starting platform.,Manual
+TC-02,Movement,Player is on the first platform.,Move using WASD and jump with Space.,Character can move and jump normally.,Manual
+TC-03,Falling,Player has started the course.,Jump off the edge of a platform.,Player respawns at start or most recent checkpoint.,Manual
+TC-04,Checkpoint,At least one checkpoint is in the course.,"Touch checkpoint, then fall.",Player respawns at that checkpoint.,Manual
+TC-05,Timer,Timer feature is added.,Start a new run.,Time starts at zero and counts up.,Automated + manual
+TC-06,Finish,Timer is running.,Reach the green finish platform.,Time stops and the run is marked complete.,Manual
+TC-07,Coin reward,Player has zero coins and a fresh run.,Finish once; step on finish again.,"Coins are added once, not every time the part is touched.",Automated + manual
+TC-08,Best time,Player has completed a run in 60 seconds.,Complete the course again in 50 seconds.,"Best time changes to 50 seconds, not 60.",Automated
+TC-09,Restart,A run is in progress.,Press the Restart button.,Player returns to start and timer resets.,Manual
+TC-10,Multiplayer,Two test players are in the same server.,Have both players run and finish.,Each player gets a separate timer and result.,Manual
+TC-11,Mobile UI,Phone simulator is open.,Check HUD and movement controls.,Main text fits the screen and buttons can be used.,Manual
